@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@700&family=Oswald:wght@400;500&family=Roboto&display=swap');
+.header{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.header__Menu{
+position: absolute;
+top: 79px;
+right: 155px;
+display: flex;
+gap: 58.4px;
+}
+.header__MenuItem{
+text-decoration: none;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 1.94px;
+color: white;
+}
+.header__contentMain{
+ font-weight: 500;
+ width: 100%;
+ font-size: 72px;
+ letter-spacing: 4.608px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: absolute;
+ top: 383px;
+}
+.header__contentItem{
+    width: 100%;
+    font-family: 'OpenSans';
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.28px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 505px;
+} 
+.header__contentnumbers{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 836px;
+}
+.header__contentMenuItem::after{
+    content: "";
+    height: 1px;
+    width: 20px;
+    background-color: greenyellow;
+}

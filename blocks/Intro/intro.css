@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@700&family=Oswald:wght@400;500&family=Roboto&display=swap');
+.intro{
+    font-family: 'Oswald', sans-serif;
+}
+.intro__content{
+margin: 0px auto;
+min-height: 825px;
+width: 1800px;
+position: relative;
+}
+.intro__img1{
+position: absolute;
+top: 149px;
+left: 458px;
+z-index: 2;
+}
+.intro__img2{
+position: absolute;
+top: 211px;
+left: 668px;
+z-index: 1;
+}
+.intro__img3{
+position: absolute;
+top: 317px;
+ left: 878px;    
+}
+.intro__Item{
+position: absolute;
+top: 222px;
+left: 265px;
+font-weight: 700;
+font-size: 36px;
+line-height: 53px;
+letter-spacing: 2.304px;
+color: #333333;
+}
+.intro__ItemThin{
+    position: absolute;
+    top: 279px;
+    left: 265px;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 2.688px;
+    color: #504E4E;
+    }
+    .intro__discription{
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 1.26px;
+        color: #5B5858;
+    }
+    .intro__discription:nth-child(3)
+    {
+    position: absolute;
+    top: 368px;
+    left: 316px;
+    z-index: 4;
+    }
+    .intro__discription:last-child{
+    position: absolute;
+    top: 553px;
+    left: 1166px;
+    z-index: 4;
+    }
+.intro__discription::before{
+content: "";
+display: inline-block;
+width: 20px;
+height: 2px;
+background: #353535;
+position: absolute;
+left: -30px;
+top: 15px;
+}
+
+
